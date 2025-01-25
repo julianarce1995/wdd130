@@ -1,0 +1,43 @@
+:root {
+  --Primary-color: #CAE5FF;
+  --Secondary-color: #ACEDFF; 
+  --Acent1-color: #89BBFE;
+  --Acent2-color: #6F8AB7;
+  --black: #000000;
+}
+
+h1 {
+  color: var(--Acent2-color);
+}
+
+p {
+  color: var(--Acent1-color);
+}
+
+main {
+    max-width: 800px;
+    width: 840px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero h1,
+.hero article {
+  position: absolute;
+}
+
+.hero article img {
+  float: right;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
