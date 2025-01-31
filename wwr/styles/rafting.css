@@ -156,6 +156,10 @@ header nav a {
   align-items: center;
 }
 
-.adventure img {
-  width: 18%;
+.figure {
+  width: 19%;
+}
+
+.figure img {
+  width: 100%;
 }
