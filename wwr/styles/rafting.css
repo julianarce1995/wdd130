@@ -6,6 +6,17 @@
   --black: #000000;
 }
 
+body {
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
 h1 {
   color: var(--Acent2-color);
 }
@@ -14,30 +25,144 @@ p {
   color: var(--Acent1-color);
 }
 
-main {
-    max-width: 800px;
-    width: 840px;
+a {
+  text-decoration: none;
 }
 
-footer a {
-  text-decoration: none;
+main {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+footer img {
+  padding: 15px;
+  width: 50px;
+}
+
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 2/4;
+}
+
+footer div {
+  display: flex;
 }
 
 .hero {
   position: relative;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.hero h1,
-.hero article {
+.hero h1{
   position: absolute;
-}
-
-.hero article img {
-  float: right;
+  width: 100%;
+  top: 20%;
+  padding: 30px 0;
+  z-index: 1;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .hero img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  padding: 20px;
+  transform: translateX(-50%);
+  background: rgba(218, 209, 209, 0.479);
+  max-width: 80%;
+  text-align: center;
+}
+
+.hero article img {
+  width: 200px;
+  float: right;
+}
+
+.hero article h1 {
+  color: white;
+}
+
+.hero article p {
+  color: rgb(247, 240, 240);
+  padding: 25px;
+}
+
+header {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+
+header div {
+  grid-column: span 1;
+  display: flex;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  grid-column: 2 / 4;
+  padding: 20px;
+}
+
+header nav a {
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #000000;
+  color: rgb(7, 7, 7);
+  font-weight: 700;
+}
+
+.history,
+.adventure {
+  text-align: center;
+}
+
+.history div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.history div img {
+  width: 400px;
+}
+
+.history div p {
+  padding: 50px;
+  color: #000000;
+}
+
+.adventure div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.adventure img {
+  width: 18%;
 }
