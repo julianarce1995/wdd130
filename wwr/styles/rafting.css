@@ -163,3 +163,42 @@ header nav a {
 .figure img {
   width: 100%;
 }
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  margin: 78px;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.info span {
+  width: 100%;
+}
+
+.form-labels {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.figure-images {
+  display: flex;
+}
+
+.figure {
+  flex: 1;
+}
+
+.button-submit {
+  padding: 10px 25px; 
+}
+
+.iframe {
+  width: 400px;
+  height: 300px;
+}
