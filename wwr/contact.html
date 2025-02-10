@@ -25,6 +25,7 @@
         </nav>
     </header>
     <main>
+      <h1>Contact Us Page</h1>
       <div>
         <span>CRA 47 # 89-22</span>
         <span>+57 315 447 89 78</span>
@@ -43,20 +44,20 @@
           <figcaption>Rafting Employee 3</figcaption>
         </figure>
         <form id="form" action="/">
-          <label for="fname">First name:</label><br>
+          <label id="name_label" for="fname">First name:</label><br>
           <input type="text" id="fname" name="fname" value="John"><br>
-          <label for="email">e-mail:</label><br>
+          <label id="email_label" for="email">e-mail:</label><br>
           <input type="email" id="email" name="email" value="Doe@gmail.com"><br><br>
-          <label>the message</label><br>
-          <textarea name="" id=""></textarea><br><br>
-          <input type="radio">
-          <label>General Inquiry</label><br>
-          <input type="radio">
-          <label>General Inquiry</label><br>
-          <input type="radio">
-          <label>General Inquiry</label><br>
-          <input type="checkbox" value="Submit">
-          <label>Please subscribe me to the monthly newsletter</label><br>
+          <label id="message_label">the message</label><br>
+          <textarea name="textarea" id="textarea"></textarea><br><br>
+          <input id="general_input" type="radio">
+          <label id="general_label">General Inquiry</label><br>
+          <input id="reservation_input" type="radio">
+          <label id="reservation_label">Reservation Question</label><br>
+          <input id="website_input" type="radio">
+          <label id="website_label">Website Suggestion</label><br>
+          <input id="checkbox" type="checkbox">
+          <label id="checkbox_label">Please subscribe me to the monthly newsletter</label><br>
           <button type="submit">Submit</button>
         </form> 
       </div>
