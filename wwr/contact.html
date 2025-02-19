@@ -27,63 +27,82 @@
     <main>
       <div class="contact-container">
         <h1>Contact Us Page</h1>
+        <hr class="hr">
         <div class="form">
           <form id="form" action="/">
             <div class="form-labels">
-              <label id="name_label" for="fname">First name:</label><br>
-              <input type="text" id="fname" name="fname" value="John"><br>
-              <label id="email_label" for="email">e-mail:</label><br>
-              <input type="email" id="email" name="email" value="Doe@gmail.com"><br><br>
-              <label id="message_label">the message</label><br>
-              <textarea name="textarea" id="textarea"></textarea><br><br>
+              <div class="inputs-label">
+                <label id="name-label" class="label-form" for="fname">First name:</label>
+                <input type="text" class="input-form" id="fname" name="fname" value="" placeholder="John">
+              </div>
+              <div class="inputs-label">
+                <label id="email-label" class="label-form" for="email">e-mail:</label>
+                <input type="email" class="input-form" id="email" name="email" value="" placeholder="Doe@gmail.com">
+              </div>
+              <div class="inputs-label">
+                <label id="message-label" class="label-form" for="textarea">The message:</label>
+                <textarea class="input-form" name="textarea" id="textarea" placeholder="Your message here...."></textarea>
+              </div>
             </div>
-            <input id="general_input" type="radio">
-            <label id="general_label">General Inquiry</label><br>
-            <input id="reservation_input" type="radio">
-            <label id="reservation_label">Reservation Question</label><br>
-            <input id="website_input" type="radio">
-            <label id="website_label">Website Suggestion</label><br>
-            <input id="checkbox" type="checkbox">
-            <label id="checkbox_label">Please subscribe me to the monthly newsletter</label><br>
-            <button class="button-submit" type="submit">Send Info</button>
+            <div class="form-labels">
+              <div>
+                <input class="input-form-sec" id="general-input" type="radio">
+                <label id="general-label" for="general-input">General Inquiry</label>
+              </div>
+              <div>
+                <input class="input-form-sec" id="reservation-input" type="radio">
+                <label id="reservation-label" for="reservation-input">Reservation Question</label>
+              </div>
+              <div>
+                <input class="input-form-sec" id="website-input" type="radio">
+                <label id="website-label" for="website-input">Website Suggestion</label>
+              </div>
+              <div>
+                <input class="input-form-sec" id="checkbox" type="checkbox">
+                <label id="checkbox-label" for="checkbox">Please subscribe me to the monthly newsletter</label>
+              </div>
+              <button class="button-submit" type="submit">Send Info</button>
+            </div>
           </form> 
         </div>
-        <div class="figure-images">
-          <figure class="figure">
+        <hr class="hr">
+        <div class="grid-trip-container">
+          <figure class="grid-item">
             <img src="images/rafting59_600.jpg" alt="happy rafting employee 1.">
             <figcaption>Rafting Employee 1</figcaption>
           </figure>
-          <figure class="figure">
+          <figure class="grid-item">
             <img src="images/rafting59_600.jpg" alt="happy rafting employee 2.">
             <figcaption>Rafting Employee 2</figcaption>
           </figure>
-          <figure class="figure">
+          <figure class="grid-item">
             <img src="images/rafting59_600.jpg" alt="happy rafting employee 3.">
             <figcaption>Rafting Employee 3</figcaption>
           </figure>
         </div>
-        <div class="info">
-          <span>Address:</span>
-          <span>CRA 47 # 89-22</span>
-          <span>Phone number:</span>
-          <span>+57 315 447 89 78</span>
-          <span>E-mail:</span>
-          <span>thebestrafting@gmail.com</span>
+        <hr class="hr">
+        <div class="contact-info">
+          <div class="info">
+            <h2>More Information</h2>
+            <h3>Address: CRA 47 # 89-22</h3>
+            <h3>Phone number: +57 315 447 89 78</h3>
+            <h3>E-mail: thebestrafting@gmail.com</h3>
+          </div>
+          <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7740.620810028822!2d-76.4973814524905!3d3.1684914640990267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1739218329943!5m2!1ses-419!2sco" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7740.620810028822!2d-76.4973814524905!3d3.1684914640990267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1739218329943!5m2!1ses-419!2sco" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </main>
     <footer>
       <p>© 2025 - Julian David Arce Araujo - River Adventures</p>
       <div>
-        <a href="https://app.moqups.com/JdwHjPPSTRN8jhVgPP2rUUOfsgyT1Uym/view/page/acaaa9c8c">moqups</a>
+        <a class="link" href="https://app.moqups.com/JdwHjPPSTRN8jhVgPP2rUUOfsgyT1Uym/view/page/acaaa9c8c">moqups</a>
         <a href="http://facebook.com">
           <img src="images/facebook_icon.png" alt="facebook icon">
         </a>
-        <a href="http://instagram.com">
+        <a href="https://instagram.com">
           <img src="images/instagram_icon.png" alt="instagram icon">
         </a>
-        <a href="http://youtube.com">
+        <a href="https://youtube.com">
           <img src="images/youtube_icon.png" alt="youtube icon">
         </a>
       </div>
