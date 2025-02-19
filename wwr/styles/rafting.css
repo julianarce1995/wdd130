@@ -179,6 +179,11 @@ header nav a {
   width: 100%;
 }
 
+.form {
+  display: flex;
+  justify-content: center;
+}
+
 .form-labels {
   display: flex;
   flex-direction: column;
@@ -201,4 +206,31 @@ header nav a {
 .iframe {
   width: 400px;
   height: 300px;
+}
+
+.grid-container,
+.grid-trip-container {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-trip-container {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
